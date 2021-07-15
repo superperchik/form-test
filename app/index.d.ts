@@ -1,0 +1,11 @@
+declare var email: HTMLElement;
+declare var personname: HTMLElement;
+declare var btnSend: HTMLElement;
+declare var form: any;
+declare var specialities_data_1: any;
+declare var selectSpecialities: HTMLElement;
+declare var countries_data_1: any;
+declare var selectCountry: HTMLElement;
+declare function retrieveFormValue(): void;
+declare function isFormValid(form: any): boolean;
+declare function send(object: any): void;
